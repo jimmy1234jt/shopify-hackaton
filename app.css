@@ -89,7 +89,34 @@ a{
     align-items: center;
     gap: 20px;
   }
+  .list-title .checkbox {
+    background-color: transparent;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 8px;
 
+  }
+  
+  .list-title button h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    background-color: transparent;
+
+  }
+  .list-name {
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+  }
+  .list-title .list-name:hover{
+    background-color: #E1E1E1;
+  }
+.checkbox {
+}
+.checkbox:hover {
+  border: #000 1px solid;
+}
 
   .panel {
     display: none;
@@ -230,8 +257,10 @@ a{
   font-size: 12px;
   display: none;
 }
-.btn span{
+.btn .close-btn{
   padding: 8px;
+  background-color: transparent;
+  border: none;
 }
 
 /* Style for the search bar container */
@@ -291,6 +320,13 @@ a{
   align-items: center;
   gap: 20px;
   flex: 1;
+}
+
+.right-icons button {
+  border: none;
+}
+.right-icons button:hover {
+  border: white 1px solid;
 }
 
 .menu-btn {
@@ -493,6 +529,13 @@ a{
 }
 .banner-text p {
   font-size: 12px;
+} 
+.list-title button h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-title {
+  width: 100%;
 }
 }
 
@@ -532,6 +575,10 @@ a{
   }
   .banner-text p {
     font-size: 12px;
+  }
+  .list-title button h4 {
+    font-size: 14px;
+    font-weight: 600;
   }
 
   .left-btn{
